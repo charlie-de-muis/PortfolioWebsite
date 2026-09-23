@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiffany van Hal — Portfolio</title>
+  <link rel="stylesheet" href="../portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/7.2.3/css/flag-icons.min.css">
+</head>
+
+<body>
+  <header class="portfolio-header">
+    <a href="../index.html" class="navbtn" data-i18n="nav_home">Home</a>
+    <a href="aboutpage.html" class="navbtn" data-i18n="nav_about">About</a>
+    <div class="navbtn-dropdown">
+      <button class="navbtn dropdown-toggle" aria-expanded="false">
+        Projects
+      </button>
+      <div class="dropdown-menu">
+        <a href="projectspage.html?filter=tech" class="dropdown-item">Tech</a>
+        <a href="projectspage.html?filter=hobby" class="dropdown-item">Creative</a>
+        <a href="projectspage.html" class="dropdown-item" data-i18n="nav_all">All</a>
+      </div>
+    </div>
+    <a href="contactpage.html" class="navbtn" data-i18n="nav_contact">Contact</a>
+    <div class="languages">
+      <button class="btn-lang" data-lang="nl">
+        <span class="fi fi-nl"></span>
+      </button>
+      <button class="btn-lang" data-lang="en">
+        <span class="fi fi-gb"></span>
+      </button>
+    </div> 
+  </header>
+
+  <main class="projectmain">
+    <div class="project-grid" id="project-grid"></div>
+
+    <script src="../js/projects.js"></script>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/dropdown.js"></script>
+  </main>
+
+  <footer>
+    <p style="padding: 1rem; display: flex; justify-content: right;">© Tiffany van Hal</p>
+  </footer>
+</body>
+
+</html>

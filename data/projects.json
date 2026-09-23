@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title_nl": "Blender - Slaapkamer modelleren",
+    "title_en": "Blender - Bedroom modelling",
+    "description_nl": "",
+    "description_en": "",
+    "category": "hobby",
+    "image": "../assets/img/256_kamer.png"
+  },
+  {
+    "id": 2,
+    "title_nl": "Kruisinga Webapp",
+    "title_en": "Kruisinga Webapp",
+    "description_nl": "Ik werd benaderd door Joyce van Rijschool Kruisinga omdat zij graag een digitale variant van de leskaarten wilde hebben voor op haar Ipad. <br/> <br/> Dit heb ik gerealiseerd door een PWA te maken die makkelijk op haar Ipad kon worden 'geïnstalleerd.'",
+    "description_en": "I was approached by Joyce from Drivingschool Kruisinga because she wanted a digital variant on her Ipad of the lessoncharts they use. <br/> <br/> I made this as a PWA so it could easily be 'installed' on her Ipad.",    
+    "category": "tech",
+    "image": "../assets/img/kruisingawebapp.png",
+    "link" : "https://github.com/charlie-de-muis/KruisingaWebapp"
+  },
+  {
+    "id": 3,
+    "title_nl": "Toetsenbord",
+    "title_en": "Keyboard",
+    "description_nl": "Ik heb een toetsenbord met de hand gesoldeerd en gecodeerd. <br/><br/> Ik heb keyboard switches besteld, en dan via een grid aan een Raspberry Pi Pico gesoldeerd. Vervolgens heb ik met behulp van de KMK library de functionaliteit gecodeerd. <br/><br/> De case heb ik geprint en geverfd, de keycaps heb ik gerecycled.",
+    "description_en": "I handsoldered and coded a keyboard. <br/><br/> I ordered keyboard switches, and soldered them to a Raspberry Pi Pico in a grid. After that I used the KMK library to make the keyboard functional. <br/><br/> The case is 3D printed and then painted, the keycaps are recycled.",    
+    "category": "tech",
+    "image": "../assets/img/keyboard.jpg"
+  },
+  {
+    "id": 4,
+    "title_nl": "R.E.P.O. animatronic",
+    "title_en": "R.E.P.O. animatronic",
+    "description_nl": "Ik wilde leren hoe je een animatronic maakt. Dus heb ik er eentje gemaakt op basis van een game character. <br/> <br/> Dit is nog een work in progress, aangezien ik meer beweging wil toevoegen.  <br/> <br/>Ik heb alle onderdelen zelf ontworpen in Blender, en vervolgens geprint met mijn Bambulab P1S. Hierna heb ik de bewegingen gecodeerd met behulp van Servo's en een Arduino Uno. Ook bezit deze animatronic een speaker die geluid maakt als hij zijn mond opent.",
+    "description_en": "I wanted to learn how to make an animatronic. So i made one based on a game character. <br/> <br/> This is still a work in progress, as I want to add more movements. <br/> <br/> I designed all the parts myself in Blender, and then printed them with my Bambulab P1S. After this I coded the movements using Servo's and an Arduino Uno. This animatronic also contains a speaker which makes sound when the mouth moves.",    
+    "category": "tech",
+    "image": "../assets/img/repo.gif"
+  },
+  {
+    "id": 5,
+    "title_nl": "FunctionTraceHTML",
+    "title_en": "FunctionTraceHTML",
+    "description_nl": "Een Python package die ik heb geschreven om duidelijk te zien welke functies worden aangeroepen vanaf een Qt UI element. <br/> <br/> Dit heb ik ontworpen om het mijzelf en mijn collega's een stuk makkelijker te maken tijdens mijn stage bij het Erasmus MC.",
+    "description_en": "A Python package I wrote to clearly see in which order functions are called when clicking on a Qt UI element. <br/> <br/> I made this to make my and my colleagues jobs a lot easier during my internship at the Erasmus Medical Center.",    
+    "category": "tech",
+    "image": "../assets/img/FunctionTraceHTML.png",
+    "link": "https://github.com/charlie-de-muis/FunctionTraceHTML"
+  },
+  {
+    "id": 6,
+    "title_nl": "Blender - Robot loop",
+    "title_en": "Blender - Robot loop",
+    "description_nl": "",
+    "description_en": "",    
+    "category": "hobby",
+    "image": "../assets/img/Robot_cycles.gif"
+  },
+  {
+    "id": 7,
+    "title_nl": "Blender - Auto's",
+    "title_en": "Blender - Cars",
+    "description_nl": "",
+    "description_en": "",    
+    "category": "hobby",
+    "image": "../assets/img/auto_cycles.gif"
+  }, 
+  {
+    "id": 8,
+    "title_nl": "Schoolproject - Gebarentaalvertaler",
+    "title_en": "School project - Sign language translator",
+    "description_nl": "In opdracht van Sogeti moesten wij een zorginnovatie maken voor mensen met een beperking. Wij hadden een gebarentaalvertaler gemaakt zodat dove/slechthorende mensen makkelijker konden communiceren met anderen. Voor dit project hebben wij ook contact opgenomen met de ASVZ om te kijken hoe dit ook toegankelijk gemaakt kon worden voor mensen met een verstandelijke handicap bijvoorbeeld.",
+    "description_en": "Commissioned by Sogeti, we had to create a care innovation for people with disabilities. We developed a sign language translator so that deaf and hard-of-hearing people could communicate more easily with others. For this project, we also contacted ASVZ to see how this could be made accessible for people with intellectual disabilities, for example.",    
+    "category": "tech",
+    "image": "../assets/img/filmpje.png",
+    "link" : "https://www.youtube.com/watch?v=eg-deYcex3k"
+  }, 
+  {
+    "id": 9,
+    "title_nl": "Blender - Man & Monster",
+    "title_en": "Blender - Man & Monster",
+    "description_nl": "",
+    "description_en": "",    
+    "category": "hobby",
+    "image": "../assets/img/0182.png"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "nav_home":"Home",
+  "nav_about": "About",
+  "nav_projects": "Projects",
+  "nav_contact": "Contact",
+  "nav_all": "All projects",
+
+  "welcome": "Hi!",
+  "name" : "My name is Tiffany van Hal",
+  "intro": "Welcome to my portfolio website!"
+}

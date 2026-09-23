@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiffany van Hal — Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/7.2.3/css/flag-icons.min.css">
+</head>
+
+<body>
+  <header class="portfolio-header">
+    <a href="index.html" class="navbtn" data-i18n="nav_home">Home</a>
+    <a href="Pages/aboutpage.html" class="navbtn" data-i18n="nav_about">About</a>
+    <div class="navbtn-dropdown">
+      <button class="navbtn dropdown-toggle" aria-expanded="false">
+        Projects
+      </button>
+      <div class="dropdown-menu">
+        <a href="Pages/projectspage.html?filter=tech" class="dropdown-item">Tech</a>
+        <a href="Pages/projectspage.html?filter=hobby" class="dropdown-item">Hobby</a>
+        <a href="Pages/projectspage.html" class="dropdown-item" data-i18n="nav_all">All</a>
+      </div>
+    </div>
+    <a href="Pages/contactpage.html" class="navbtn" data-i18n="nav_contact">Contact</a>
+    <div class="languages">
+      <button class="btn-lang" data-lang="nl">
+        <span class="fi fi-nl"></span>
+      </button>
+      <button class="btn-lang" data-lang="en">
+        <span class="fi fi-gb"></span>
+      </button>
+    </div> 
+  </header>
+
+  <main>
+    <div class="container_main">
+      <div class="text_home">
+        <h1 data-i18n="welcome">Welcome</h1>
+        <p data-i18n="name" style="font-size: xx-large;"></p>
+        <p data-i18n="intro" style="font-size: larger; padding-top: 1rem;">Text</p>
+      </div>
+      <div class="blob_container">
+        <div class="blob">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <path 
+              id="blob" 
+              fill="#D98FA0">
+              <animate attributeName="d" dur="15s" repeatCount="indefinite" values="M437,294Q447,338,424.5,378.5Q402,419,355,424Q308,429,269.5,431.5Q231,434,182.5,442.5Q134,451,101.5,416.5Q69,382,77,333.5Q85,285,80,249Q75,213,84.5,174.5Q94,136,134,127Q174,118,203.5,102.5Q233,87,275,65Q317,43,348,75Q379,107,406,138Q433,169,430,209.5Q427,250,437,294Z;
+              M427,284.5Q406,319,403.5,368.5Q401,418,356,428Q311,438,271.5,429Q232,420,200,406Q168,392,140.5,370.5Q113,349,87,319.5Q61,290,48.5,247.5Q36,205,59.5,167Q83,129,121.5,111.5Q160,94,195,78.5Q230,63,267,73Q304,83,355.5,79Q407,75,399,131Q391,187,419.5,218.5Q448,250,427,284.5Z;
+              M401,282Q394,314,379.5,346Q365,378,335.5,400.5Q306,423,270,413Q234,403,186.5,422.5Q139,442,111,407Q83,372,61.5,333.5Q40,295,25.5,247Q11,199,68.5,179.5Q126,160,141,123.5Q156,87,191,56.5Q226,26,270.5,38Q315,50,335,91.5Q355,133,404,146.5Q453,160,430.5,205Q408,250,401,282Z;
+              M459,288Q422,326,397,356Q372,386,345.5,423.5Q319,461,273,464Q227,467,197,430Q167,393,119,386.5Q71,380,38.5,341Q6,302,15,252Q24,202,41,156.5Q58,111,106,98Q154,85,193,83Q232,81,278,51.5Q324,22,358,57Q392,92,422.5,126Q453,160,474.5,205Q496,250,459,288Z;
+              M438.5,282Q394,314,379.5,345.5Q365,377,342,419.5Q319,462,272,474Q225,486,197.5,437.5Q170,389,136,373.5Q102,358,76,325Q50,292,64.5,253Q79,214,102,186.5Q125,159,143.5,128Q162,97,195.5,72.5Q229,48,275,39.5Q321,31,340,80Q359,129,398.5,147.5Q438,166,460.5,208Q483,250,438.5,282Z;
+              M437,294Q447,338,424.5,378.5Q402,419,355,424Q308,429,269.5,431.5Q231,434,182.5,442.5Q134,451,101.5,416.5Q69,382,77,333.5Q85,285,80,249Q75,213,84.5,174.5Q94,136,134,127Q174,118,203.5,102.5Q233,87,275,65Q317,43,348,75Q379,107,406,138Q433,169,430,209.5Q427,250,437,294Z;"></animate>
+            </path>
+          </svg>
+        </div>
+        <div class="poppetje">
+          <img src="assets/poppetje.svg">
+        </div>
+      </div>
+    </div>
+    <script src="js/i18n.js"></script>
+    <script src="js/dropdown.js"></script>
+  </main>
+
+  <footer>
+    <p style="padding: 1rem; display: flex; justify-content: right;">© Tiffany van Hal</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+:root {
+  --cream: 
+#FBF6F0;
+  --pink: 
+#F3C6CE;
+  --pink-deep: 
+#E7A3B0;
+  --rose-line: 
+#D98FA0;
+  --ink: 
+#2E2A28;
+  --ink-soft: 
+#6B615C;
+  --sage: 
+#7C9885;
+  --clay: 
+#8C6A56;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  color: lightslategray;
+}
+
+.portfolio-header {
+  background-color: var(--pink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-header .navbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--pink);
+  color: var(--ink);
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+}
+
+.portfolio-header .navbtn:hover {
+  background-color: var(--pink-deep);
+}
+
+.languages {
+  background-color: var(--pink);  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.languages .btn-lang {
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--pink);
+  color: var(--ink);
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+}
+
+.languages .btn-lang:hover {
+  background-color: var(--pink-deep);
+}
+
+.languages .btn-lang img,
+.languages .btn-lang .fi {
+  width: 24px;
+  height: 18px;
+  border-radius: 2px;
+}
+
+
+.navbtn-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  font: inherit;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.5rem;
+  display: none;
+  flex-direction: column;
+  min-width: 160px;
+  background-color: var(--pink);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 10;
+}
+
+.navbtn-dropdown.open .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-item {
+  padding: 0.6rem 1rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: var(--pink-deep);
+}
+
+.projectmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--pink);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: var(--pink-deep);
+}
+
+.filter-btn.active {
+  background-color: var(--pink-deep);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.5rem;
+  width: 100%;
+  max-width: 66rem;   /* twee kaarten van 31rem + gap, netjes begrensd */
+  margin: 0 auto;      /* grid zelf centreren op de pagina */
+}
+
+.card {
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--cream);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
+              0 1px 3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: var(--ink);
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12),
+              0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.card--no-link {
+  cursor: default;
+}
+
+.container_main {
+  display: grid;
+  grid-template-columns: minmax(280px, 620px) minmax(300px, 1fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 6rem);
+  padding: clamp(2rem, 1vw, 5rem) clamp(1.5rem, 3vw, 6rem);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.text_home {
+  border: 5px dotted var(--rose-line);
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(2rem, 5vw, 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;       
+  text-align: center; 
+  transform: translate(1rem, -1.4rem);       
+}
+
+.text_home h1 {
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
+  margin-bottom: 0.5rem;
+}
+
+.blob_container {
+  position: relative;
+  width: 120%;
+  max-width: 32rem;               
+  margin: 0 auto;
+  aspect-ratio: 1;  
+  transform: translate(1.4rem, -1rem); /* rechts, omhoog */
+}
+
+.blob {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  opacity: 0.6;
+}
+
+#blobSvg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.poppetje {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
+}
+
+@media (max-width: 760px) {
+  .container_main {
+    grid-template-columns: 1fr;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
